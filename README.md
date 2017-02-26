@@ -6,12 +6,9 @@
 * <a href="#Architecture">Architecture</a>
 * <a href="#Data Flow">Data Flow</a>
     * <a href="#Batch Processing">Batch Processing</a>
-    * <a href="#Streaming Processing">Streaming Processing</a>
-* <a href="#RADAR Scope">RADAR Scope</a>
-* <a href="#RDD Operation">RDD Operation</a>
-* <a href="#RADAR Lab Environment">RADAR Lab Environment</a>
+* <a href="#Scope">RADAR Scope</a>
+* <a href="#Lab Environment">RADAR Lab Environment</a>
    * <a href="#Cluser Information">Cluser Information</a>
-   * <a href="#Cluster Service Matrix">Cluster Service Matrix</a>
    * <a href="#Service Web UIs">Service Web UIs</a>
 
 
@@ -50,9 +47,13 @@ The following diagram illustrates overall data flow of data ingesting and proces
 <a name="Cluser Information"></a>
 ### Cluser Information
 
-ServerName|	Internal IP|	EIP|	External SSH|	OS	Disk|	Memory
-----------|------------|------|--------------|---------|
-
+ServerName|Internal IP-|EIP           |External SSH|OS          |Disk(GB)|Memory(GB)
+----------|------------|--------------|------------|------------|----|------
+Master    |192.168.77.4|139.224.10.176|50022       |Ubuntu14.04||8
+Slave1    |192.168.77.1|              |50122       |Ubuntu14.04||8
+Slave2    |192.168.77.2|              |50222       |Ubuntu14.04||8
+Slave3    |192.168.77.3|              |50322       |Ubuntu14.04||8
+Slave4    |192.168.77.5|              |50522       |Ubuntu14.04||8
 
 
 <a name="Cluster Service Matrix"></a>
