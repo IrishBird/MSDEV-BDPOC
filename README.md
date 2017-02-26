@@ -6,8 +6,8 @@
 * <a href="#Architecture">Architecture</a>
 * <a href="#Data Flow">Data Flow</a>
     * <a href="#Batch Processing">Batch Processing</a>
-* <a href="#Scope">RADAR Scope</a>
-* <a href="#Lab Environment">RADAR Lab Environment</a>
+* <a href="#Scope">Scope</a>
+* <a href="#Lab Environment">Lab Environment</a>
    * <a href="#Cluser Information">Cluser Information</a>
    * <a href="#Service Web UIs">Service Web UIs</a>
 
@@ -64,11 +64,8 @@ Slave4    |192.168.77.5|              |50522       |Ubuntu14.04||8
 ### Service Web UIs
 Service Name | Server name		| URLs
 -------------|----------------|-----------
-Hadoop HFDS| hadoopmaster	|[HDFS](http://16.152.119.10:50070/dfshealth.html)
-Hadoop Yarn| hadoopmaster	| [Yarn](http://16.152.119.10:8088/)
-Apache Hue| hadoopmaster	|[Apache Hue](http://16.152.119.10:8000/beeswax)
-Apache Oozie| hadoopslave3	|[Apache Oozie](http://16.152.119.13:11000/oozie/)
-Spark History Service| hadoopmaster	|[Apache Spark History Service](http://16.152.119.10:18080/)
-Apache Airflow| hadoopslave1	|[Apache Airflow](http://16.152.119.8:4080/)
-Apache Nifi| hadoopslave3	|[Apache Nifi](http://16.152.119.13:8880/nifi/)
+Hadoop HFDS| hadoopmaster	|[HDFS](http://139.224.10.176:50070/dfshealth.html)
+Hadoop Yarn| hadoopmaster	| [Yarn](http://139.224.10.176:8088/)
+Apache Hue| hadoopmaster	|[Apache Hue](http://139.224.10.176:8000/beeswax)
+
 
