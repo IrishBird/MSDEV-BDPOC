@@ -18,10 +18,12 @@
 
 ## Goal
 This POC wse setup for Merkler GDC techology guys to learning and pratice more about new techology. For the Big Data ecosystem.
+
 Goal Phase I (Duration: Start from 2/27/2017 to ??):
-* Batching load.
-* Work out a stable and efficient solution for batch load based on SparkSQL.
-* Implement one typical fact table using SparkSQL, and test performance
+
+*Batching load.
+*Work out a stable and efficient solution for batch load based on SparkSQL.
+*Implement one typical fact table using SparkSQL, and test performance
 
 Goal Phase II 
 
