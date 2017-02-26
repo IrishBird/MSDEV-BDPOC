@@ -16,9 +16,10 @@
 
 <a name="Goal"></a>
 
-
 ## Goal
+This POC wse setup for Merkler GDC techology guys to learning and pratice more about new techology. For the Big Data ecosystem.
 Goal Phase I (Duration: Start from 2/27/2017 to ??):
+* Batching load.
 * Work out a stable and efficient solution for batch load based on SparkSQL.
 * Implement one typical fact table using SparkSQL, and test performance
 
@@ -35,7 +36,8 @@ Goal Phase II
 In this section, we will explain overall data flow for both batch and streaming processing.
 <a name="Batch Processing"></a>
 ### Batch Processing
-The following diagram illustrates overall data flow of data ingesting and processing. First, data will be derived from external RDBMS or file systems by Apache Sqoop or customed program, and then loaded to HDFS (Step1). Hive external table points to these HDFS files loaded from external systems. Second, user invokes Spark job. Spark job will be initialized Spark driver which interacts with Yarn resource manager and allocates Spark executors and schedules Spark tasks (Step 2) and retrieves Hive meta store (Step 3). Spark tasks will be executed over Yarn nodes, and they read data from Hive staging/archiving table (Step 4) and process and loaded back to Hive integrated table (Step 5). Similarly with procesing Hive exteranl table, data will be read (Step 8), processed and loaded into (Step 9). In the end, data in Hive reporting table will be copied to Vertica table through HDFS connector.
+
+
 
 <a name="Scope"></a>
 ## Scope
