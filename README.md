@@ -1,4 +1,4 @@
-# Merkle GDC DEV BigData POC
+# MKR GDC DEV BigData POC
 
 ### Table of Contents
 
