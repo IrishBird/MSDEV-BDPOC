@@ -8,7 +8,7 @@
     * <a href="#Batch Processing">Batch Processing</a>
 * <a href="#Scope">Scope</a>
 * <a href="#Lab Environment">Lab Environment</a>
-   * <a href="#Cluser Information">Cluser Information</a>
+   * <a href="#Cluser Information">Cluster Information</a>
    * <a href="#Service Web UIs">Service Web UIs</a>
 
 
