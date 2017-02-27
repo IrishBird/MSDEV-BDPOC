@@ -70,5 +70,7 @@ Service Name | Server name		| URLs
 Hadoop HFDS| hadoopmaster	|[HDFS](http://139.224.10.176:50070/dfshealth.html)
 Hadoop Yarn| hadoopmaster	| [Yarn](http://139.224.10.176:8088/)
 Apache Hue| hadoopmaster	|[Apache Hue](http://139.224.10.176:8000/beeswax)
+Zookeeper|hadoopmaster|[Zookeeper]
+HBase|hadoopmaster|[HBase]
 
 
